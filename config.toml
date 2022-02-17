@@ -1,0 +1,92 @@
+baseURL = 'https://dimas.link/'
+languageCode = 'en-us'
+title = 'Profile Page'
+theme = 'hello-friend-ng'
+paginate = 1
+
+[author]
+  name = "Riandy Dimas"
+
+[params]
+  dateform        = "Jan 2, 2022"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2022-01-02"
+  dateformNumTime = "2022-01-02 15:04"
+  enableThemeToggle = true
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  # Metadata mostly used in document's head
+  description = "Riandy Dimas profile page"
+  keywords = "profile page, portfolio"
+  images = [""]
+
+# [taxonomies]
+#    category = "blog"
+#    tag      = "tags"
+#    series   = "series"
+
+enableGlobalLanguageMenu = true
+
+[languages]
+  [languages.en]
+    title = "It's me Dimas"
+    subtitle = "Welcome!"
+    homeSubtitle = "Thanks for checking me out :)"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+    [languages.en.params.logo]
+      logoText = "`${helloWorld}!`"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+  [languages.id]
+    title = "Ini Dimas"
+    subtitle = "Selamat datang!"
+    homeSubtitle = "Terima kasih sudah singgah :)"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+    [languages.id.params.logo]
+      logoText = "`${haloDunia}!`"
+      logoHomeLink = "/"
+
+  # And you can even create generic menu
+  [[menu.main]]
+
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/riandydimas/"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/riandy_db/"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/riandy_db/"
+
+[[params.social]]
+  name = "codepen"
+  url = "https://codepen.io/riandy-dimas"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/riandy-dimas/"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:riandy.dimas@live.com"
+
+[params.footer]
+  trademark = true
+  copyright = true
+  author = true
