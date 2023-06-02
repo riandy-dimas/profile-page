@@ -13,6 +13,7 @@ paginate = 1
   dateformNum     = "2022-01-02"
   dateformNumTime = "2022-01-02 15:04"
   enableThemeToggle = true
+  gtm_id = "GTM-NVB8N29"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true

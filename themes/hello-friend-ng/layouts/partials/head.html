@@ -70,3 +70,6 @@
 {{- if .Site.GoogleAnalytics }}
     {{ template "_internal/google_analytics.html" . }}
 {{- end}}
+
+<!-- Google Tag Manager -->
+{{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
